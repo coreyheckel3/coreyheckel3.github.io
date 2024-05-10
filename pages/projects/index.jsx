@@ -1,63 +1,43 @@
-import axios from 'axios';
+import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
+import projectData from '/data/projectData.json'; // Path to your local JSON file
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
+import CardActionArea from '@mui/material/CardActionArea';
 
 export default function Projects() {
   return (
     <>
       <Head>
-        <title>Skills</title>
+        <title>Projects</title>
       </Head>
-      <h1>Skills</h1>
-      <ul>
-          <li className='nav'>
-            <Link href={`/skills/programming-languages`}>
-              Programming Languages
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/database-languages`}>
-              Database & Query Languages
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/web-technologies`}>
-              Web Technologies
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/data`}>
-              Data Visualization & Analysis
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/machine-learning`}>
-              Machine Learning & Computer Vision
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/testing`}>
-              Testing & Quality Assurance
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/documentation`}>
-              Documentation
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/tools`}>
-              Software & Tools
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/finance`}>
-              Finance & Economics
-            </Link>
-          </li>
-      </ul>
-        <p>
-        <Link href={'/'}>
+      <h1>Projects</h1>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center' }}>
+        {projectData.map((project) => (
+          <Card key={project.id} sx={{ maxWidth: 345 }}>
+            <CardActionArea component={Link} href={`/projects/${project.id}`} sx={{ textDecoration: 'none' }}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  {project.title}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Position: {project.position}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  {project.startDate} - {project.endDate}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  {project.description}
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        ))}
+      </div>
+      <p>
+        <Link href='/'>
           Home
         </Link>
       </p>

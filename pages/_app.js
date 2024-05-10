@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     const handleRouteChange = (url) => {
-      const validRoutes = ['/skills', '/projects', '/experience', '/education', '/'];
+      const validRoutes = ['/skills', '/projects', '/experience', '/education', '/about', '/'];
       if (!validRoutes.some(route => url.startsWith(route))) {
         router.push('/404');
       }

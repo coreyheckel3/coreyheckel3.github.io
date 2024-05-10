@@ -1,0 +1,43 @@
+[
+    {
+      "id": "SonicScript",
+      "position": "Lead Full Stack Engineer",
+      "title": "SonicScript - Stevens Research",
+      "startDate": "May 2023",
+      "endDate": "May 2024",
+      "description": "Description of Project One."
+    },
+    {
+      "id": "ART-022",
+      "position": "Associate Dashboard Developer",
+      "title": "ART-022 - Stevens Research",
+      "startDate": "May 2022",
+      "endDate": "August 2022",
+      "description": "Description of Project One."
+    },
+    {
+      "id": "MLB",
+      "position": "Associate Data Analyst",
+      "title": "MLB Pitching Analysis - Stevens Research",
+      "startDate": "May 2021",
+      "endDate": "August 2021",
+      "description": "Description of Project One."
+    },
+    {
+      "id": "Surivial",
+      "position": "Lead Game Developer",
+      "title": "Island Escape - Personal",
+      "startDate": "May 2023",
+      "endDate": "Present",
+      "description": "Description of Project One."
+    },
+    {
+      "id": "Portfolio",
+      "position": "Lead Web Developer",
+      "title": "This Portfolio Website - Personal",
+      "startDate": "May 2024",
+      "endDate": "Present",
+      "description": "Description of Project One."
+    }
+
+  ]

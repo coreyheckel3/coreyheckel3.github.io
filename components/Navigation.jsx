@@ -5,6 +5,9 @@ export default function Navigation() {
   return (
     <ul className='navClass center'>
       <li className='nav'>
+        <Link href='/about'>About</Link>
+      </li>
+      <li className='nav'>
         <Link href='/skills'>Technical Skills</Link>
       </li>
       <li className='nav'>

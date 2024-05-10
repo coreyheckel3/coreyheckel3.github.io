@@ -1,63 +1,43 @@
-import axios from 'axios';
+import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
+import experienceData from '/data/experienceData.json'; // Path to your local JSON file
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
+import CardActionArea from '@mui/material/CardActionArea';
 
 export default function Experience() {
   return (
     <>
       <Head>
-        <title>Skills</title>
+        <title>Experience</title>
       </Head>
-      <h1>Skills</h1>
-      <ul>
-          <li className='nav'>
-            <Link href={`/skills/programming-languages`}>
-              Programming Languages
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/database-languages`}>
-              Database & Query Languages
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/web-technologies`}>
-              Web Technologies
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/data`}>
-              Data Visualization & Analysis
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/machine-learning`}>
-              Machine Learning & Computer Vision
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/testing`}>
-              Testing & Quality Assurance
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/documentation`}>
-              Documentation
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/tools`}>
-              Software & Tools
-            </Link>
-          </li>
-          <li className='nav'>
-            <Link href={`/skills/finance`}>
-              Finance & Economics
-            </Link>
-          </li>
-      </ul>
-        <p>
-        <Link href={'/'}>
+      <h1>Experience</h1>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center' }}>
+        {experienceData.map((experience) => (
+          <Card key={experience.id} sx={{ maxWidth: 345 }}>
+            <CardActionArea component={Link} href={`/experience/${experience.id}`} sx={{ textDecoration: 'none' }}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  {experience.title}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Position: {experience.position}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  {experience.startDate} - {experience.endDate}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  {experience.description}
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        ))}
+      </div>
+      <p>
+        <Link href='/'>
           Home
         </Link>
       </p>

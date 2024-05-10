@@ -1,0 +1,74 @@
+[
+    {
+      "id": "EchoLab",
+      "position": "Full Stack Engineer",
+      "title": "EchoLab",
+      "startDate": "February 2024",
+      "endDate": "May 2024",
+      "description": "Description of Project One."
+    },
+    {
+        "id": "CourseReview",
+        "position": "Web Devloper",
+        "title": "Student Course Review Website",
+        "startDate": "October 2023",
+        "endDate": "December 2023",
+        "description": "Description of Project One."
+      },
+      {
+        "id": "GEDCOM",
+        "position": "Data Engineer & Scrum Master",
+        "title": "GEDCOM",
+        "startDate": "September 2023",
+        "endDate": "November 2023",
+        "description": "Description of Project One."
+      },
+      {
+        "id": "Irwin",
+        "position": "Full Stack Developer",
+        "title": "Irwin",
+        "startDate": "January 2023",
+        "endDate": "May 2023",
+        "description": "Description of Project One."
+      },
+      {
+        "id": "USA",
+        "position": "Lead Web Developer",
+        "title": "Electoral College Map",
+        "startDate": "March 2023",
+        "endDate": "May 2023",
+        "description": "Description of Project One."
+      },
+      {
+        "id": "DSL",
+        "position": "Lead Game Developer",
+        "title": "Ducks In The Stress Lane",
+        "startDate": "February 2023",
+        "endDate": "March 2023",
+        "description": "Description of Project One."
+      },
+      {
+        "id": "Theres Options",
+        "position": "Full Stack Developer",
+        "title": "There's Options",
+        "startDate": "February 2022",
+        "endDate": "April 2022",
+        "description": "Description of Project One."
+      }, 
+      {
+        "id": "Robot",
+        "position": "Lead Software Engineer",
+        "title": "Arduino Robot",
+        "startDate": "February 2021",
+        "endDate": "May 2021",
+        "description": "Description of Project One."
+      },
+      {
+        "id": "Weather",
+        "position": "Lead Software Engineer",
+        "title": "IoT Weather Sensor",
+        "startDate": "September 2020",
+        "endDate": "December 2020",
+        "description": "Description of Project One."
+      }
+]
