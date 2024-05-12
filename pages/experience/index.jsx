@@ -14,23 +14,21 @@ export default function Experience() {
         <title>Experience</title>
       </Head>
       <h1>Experience</h1>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'left' }}>
         {experienceData.map((experience) => (
-          <Card key={experience.id} sx={{ maxWidth: 345 }}>
+          <Card key={experience.id} sx={{ width: 345 }}>
             <CardActionArea component={Link} href={`/experience/${experience.id}`} sx={{ textDecoration: 'none' }}>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   {experience.title}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Position: {experience.position}
+                  {experience.position}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   {experience.startDate} - {experience.endDate}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {experience.description}
-                </Typography>
+                
               </CardContent>
             </CardActionArea>
           </Card>

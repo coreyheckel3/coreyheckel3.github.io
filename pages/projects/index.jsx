@@ -13,23 +13,20 @@ export default function Projects() {
       <Head>
         <title>Projects</title>
       </Head>
-      <h1>Projects</h1>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center' }}>
+      <h1>Academic Projects</h1>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'left' }}>
         {projectData.map((project) => (
-          <Card key={project.id} sx={{ maxWidth: 345 }}>
+          <Card key={project.id} sx={{ width: 345 }}>
             <CardActionArea component={Link} href={`/projects/${project.id}`} sx={{ textDecoration: 'none' }}>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   {project.title}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Position: {project.position}
+                  {project.position}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   {project.startDate} - {project.endDate}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {project.description}
                 </Typography>
               </CardContent>
             </CardActionArea>
