@@ -5,7 +5,8 @@
       "title": "SonicScript - Stevens Research",
       "startDate": "May 2023",
       "endDate": "May 2024",
-      "description": "Description of Project One."
+      "description": "Description of Project One.",
+      "image": "/SonicScriptImage.png"
     },
     {
       "id": "ART-022",
@@ -13,7 +14,8 @@
       "title": "ART-022 - Stevens Research",
       "startDate": "May 2022",
       "endDate": "August 2022",
-      "description": "Description of Project One."
+      "description": "Description of Project One.",
+      "image": "/DashboardImage.png"
     },
     {
       "id": "MLB",
@@ -21,7 +23,8 @@
       "title": "MLB Pitching Analysis - Stevens Research",
       "startDate": "May 2021",
       "endDate": "August 2021",
-      "description": "Description of Project One."
+      "description": "Description of Project One.",
+      "image": "/MLBImage.png"
     },
     {
       "id": "Surivial",
@@ -29,7 +32,8 @@
       "title": "Island Escape - Personal",
       "startDate": "May 2023",
       "endDate": "Present",
-      "description": "Description of Project One."
+      "description": "Description of Project One.",
+      "image": "/IslandImage.png"
     },
     {
       "id": "Portfolio",
@@ -37,7 +41,8 @@
       "title": "This Portfolio Website - Personal",
       "startDate": "May 2024",
       "endDate": "Present",
-      "description": "Description of Project One."
+      "description": "Description of Project One.",
+      "image": "hereImage.png"
     }
 
   ]

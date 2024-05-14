@@ -1,3 +1,4 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
 
 body{
     background-color: #0f4649;
@@ -37,9 +38,17 @@ body{
     color:white
  }
 
-   .cardThing{
-    background-color: #1f2b37;
-    color: white;
-   }
-  
-  
+.cardThing{
+background-color: #1f2b37;
+color: white;
+}
+.skillList img{
+    height:200px;
+    padding: 20px;
+}
+.skillList{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: calc(100% - 200px); /* Subtract the margins from the total width */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+}

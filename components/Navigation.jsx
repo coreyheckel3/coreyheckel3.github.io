@@ -9,7 +9,7 @@ export default function Navigation() {
         <Link href='/'>Home</Link>
       </li>
       <li className='nav'>
-        <Link href='/skills'>Technical Skills</Link>
+        <Link href='/'>Technical Skills</Link>
         <ul className="submenu"> 
           <li className='nav'>
           <Link href='/skills/programming-languages'>Programming Languages</Link>
@@ -41,7 +41,7 @@ export default function Navigation() {
         </ul>
       </li>
       <li className='nav'>
-        <Link href='/experience'>Experience</Link>
+        <Link href='/experience'>Professional Experience</Link>
       </li>
       <li className='nav'>
         <Link href='/education'>Education</Link>

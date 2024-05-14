@@ -1,10 +1,12 @@
 import axios from 'axios';
 import Link from 'next/link';
 import Head from 'next/head';
-
+import '/components/styles.css'
+import Navigation from '@/components/Navigation';
 export default function Finance() {
   return (
     <>
+    <Navigation />
       <Head>
         <title>Finance & Economics</title>
       </Head>

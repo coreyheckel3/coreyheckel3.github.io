@@ -2,6 +2,7 @@ import axios from 'axios';
 import Link from 'next/link';
 import Head from 'next/head';
 import Navigation from '/components/Navigation';
+import '/components/styles.css'
 export default function Education() {
   return (
     <>
@@ -9,10 +10,12 @@ export default function Education() {
         <title>Education</title>
       </Head>
       <Navigation />
+      <div className="education-container">
       <h1>Stevens Institute of Technology</h1>
-      <h2><a href= 'https://www.stevens.edu/program/software-engineering-bachelor-degree' target="_blank">B.E - Software Engineering 2024</a></h2>
+      <h2>B.E - Software Engineering 2024</h2>
       <h3>GPA: 3.7</h3>
       <h4>Relevant Courses</h4>
+      <div className="course-container">
       <h5>Software Engineering Core Courses</h5>
       <ul>
           <li>Individual Software Engineering</li>
@@ -25,6 +28,10 @@ export default function Education() {
           <li>Software Cost Estimation & Metrics</li>
           <li>Systems Engineering Architecture</li>
       </ul>
+      </div>
+
+      <div className="course-container">
+
       <h5>Domain Electives</h5>
       <ul>
           <li>Web Programming I</li>
@@ -33,6 +40,8 @@ export default function Education() {
           <li>C++ Programming in Finance</li>
           <li>Visualizing Society</li>
       </ul>
+      </div>
+      <div className="course-container">
       <h5>Math</h5>
       <ul>
           <li>Differential Calculus</li>
@@ -43,6 +52,8 @@ export default function Education() {
           <li>Discrete Mathematics</li>
           <li>Probability & Statistics</li>
       </ul>
+      </div>
+      <div className="course-container">
       <h5>Finance & Economics</h5>
       <ul>
         <li>Engineering Economics</li>
@@ -50,6 +61,8 @@ export default function Education() {
         <li>Entrepreuial Thinking</li>
         <li>C++ Programming in Finance</li>
       </ul>
+      </div>
+      <div className="course-container">
       <h5>General Engineering</h5>
       <ul>
         <li>Engineering Graphics</li>
@@ -64,15 +77,9 @@ export default function Education() {
         <li>Materials Selection & Process Optimization</li>
         <li>Materials Processing</li>
       </ul>
-      <h5>Science</h5>
-      <ul>
-        <li>General Chemistry</li>
-        <li>Mechanics</li>
-        <li>Biology & Biotechnology</li>
-        <li>Electricity & Magnetism</li>
-        <li>Astronomy</li>
-        <li>Thermodynamics</li>
-        </ul>
+      </div>
+        </div>
+
     </>
   );
 }

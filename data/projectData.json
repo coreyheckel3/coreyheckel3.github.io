@@ -16,7 +16,8 @@
         "title": "Student Course Review Website",
         "startDate": "October 2023",
         "endDate": "December 2023",
-        "description": "Description of Project One."
+        "description": "Description of Project One.",
+        "image": "/CourseImage.png"
       },
       {
         "id": "GEDCOM",
@@ -24,7 +25,8 @@
         "title": "GEDCOM",
         "startDate": "September 2023",
         "endDate": "November 2023",
-        "description": "Description of Project One."
+        "description": "Description of Project One.",
+        "image": "/GedcomImage.png"
       },
       {
         "id": "Irwin",
@@ -32,7 +34,8 @@
         "title": "Irwin",
         "startDate": "January 2023",
         "endDate": "May 2023",
-        "description": "Description of Project One."
+        "description": "Description of Project One.",
+        "image": "/Irwin-logo.png"
       },
       {
         "id": "USA",
@@ -49,7 +52,8 @@
         "title": "Ducks In The Stress Lane",
         "startDate": "February 2023",
         "endDate": "March 2023",
-        "description": "Description of Project One."
+        "description": "Description of Project One.",
+        "image": "/DSLImage.png"
       },
       {
         "id": "Theres Options",
