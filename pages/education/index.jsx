@@ -1,13 +1,14 @@
 import axios from 'axios';
 import Link from 'next/link';
 import Head from 'next/head';
-
+import Navigation from '/components/Navigation';
 export default function Education() {
   return (
     <>
       <Head>
         <title>Education</title>
       </Head>
+      <Navigation />
       <h1>Stevens Institute of Technology</h1>
       <h2><a href= 'https://www.stevens.edu/program/software-engineering-bachelor-degree' target="_blank">B.E - Software Engineering 2024</a></h2>
       <h3>GPA: 3.7</h3>
@@ -72,11 +73,6 @@ export default function Education() {
         <li>Astronomy</li>
         <li>Thermodynamics</li>
         </ul>
-        <p>
-        <Link href={'/'}>
-          Home
-        </Link>
-      </p>
     </>
   );
 }

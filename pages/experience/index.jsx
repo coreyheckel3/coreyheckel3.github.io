@@ -6,6 +6,9 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
+import '/components/styles.css'
+
+import Navigation from '/components/Navigation';
 
 export default function Experience() {
   return (
@@ -13,10 +16,11 @@ export default function Experience() {
       <Head>
         <title>Experience</title>
       </Head>
-      <h1>Experience</h1>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'left' }}>
+      <Navigation />
+      <h1 className='header'>Experience</h1>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'left', marginLeft: '75px'}}>
         {experienceData.map((experience) => (
-          <Card key={experience.id} sx={{ width: 345 }}>
+          <Card className="card-container" key={experience.id} sx={{ width: 345 }}>
             <CardActionArea component={Link} href={`/experience/${experience.id}`} sx={{ textDecoration: 'none' }}>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -34,11 +38,7 @@ export default function Experience() {
           </Card>
         ))}
       </div>
-      <p>
-        <Link href='/'>
-          Home
-        </Link>
-      </p>
+
     </>
   );
 }

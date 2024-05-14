@@ -6,6 +6,11 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
+import CardMedia from '@mui/material/CardMedia';
+
+import '/components/styles.css'
+import Navigation from '/components/Navigation';
+
 
 export default function Projects() {
   return (
@@ -13,19 +18,26 @@ export default function Projects() {
       <Head>
         <title>Projects</title>
       </Head>
-      <h1>Academic Projects</h1>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'left' }}>
+      <Navigation />
+      <h1 className='header'>Academic Projects</h1>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'left',marginLeft: '75px' }}>
         {projectData.map((project) => (
-          <Card key={project.id} sx={{ width: 345 }}>
-            <CardActionArea component={Link} href={`/projects/${project.id}`} sx={{ textDecoration: 'none' }}>
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+          <Card className='cardThing' key={project.id} sx={{ width: 345 }}>
+            <CardActionArea className='cardText' component={Link} href={`/projects/${project.id}`} sx={{ textDecoration: 'none' }}>
+            <CardMedia
+                component="img"
+                height="220"
+                image={project.image}
+                alt={project.title}
+              />
+              <CardContent className='card'>
+                <Typography className='cardText' gutterBottom variant="h5" component="div">
                   {project.title}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography className='cardText' variant="body2" color="text.secondary">
                   {project.position}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography className='cardText' variant="body2" color="text.secondary">
                   {project.startDate} - {project.endDate}
                 </Typography>
               </CardContent>
@@ -33,11 +45,7 @@ export default function Projects() {
           </Card>
         ))}
       </div>
-      <p>
-        <Link href='/'>
-          Home
-        </Link>
-      </p>
+
     </>
   );
 }

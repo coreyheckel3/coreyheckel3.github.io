@@ -1,14 +1,44 @@
 import Link from 'next/link';
+import './Navigation.css'
 
 export default function Navigation() {
   
-  return (
-    <ul className='navClass center'>
+  return ( 
+    <ul className='menu cf'>
       <li className='nav'>
-        <Link href='/about'>About</Link>
+        <Link href='/'>Home</Link>
       </li>
       <li className='nav'>
         <Link href='/skills'>Technical Skills</Link>
+        <ul className="submenu"> 
+          <li className='nav'>
+          <Link href='/skills/programming-languages'>Programming Languages</Link>
+          </li>
+          <li className='nav'>
+          <Link href='/skills/database-languages'>Database & Query Languages</Link>
+          </li>
+          <li className='nav'>
+          <Link href='/skills/web-technologies'>Web Technologies</Link>
+          </li>
+          <li className='nav'>
+          <Link href='/skills/data'>Data Visualization & Analysis</Link>
+          </li>
+          <li className='nav'>
+          <Link href='/skills/machine-learning'>Machine Learning & Computer Vision</Link>
+          </li>
+          <li className='nav'>
+          <Link href='/skills/testing'>Testing & Quality Assurance</Link>
+          </li>
+          <li className='nav'>
+          <Link href='/skills/documentation'>Documentation</Link>
+          </li>
+          <li className='nav'>
+          <Link href='/skills/tools'>Software & Tools</Link>
+          </li>
+          <li className='nav'>
+          <Link href='/skills/finance'>Finance & Economics</Link>
+          </li>
+        </ul>
       </li>
       <li className='nav'>
         <Link href='/experience'>Experience</Link>

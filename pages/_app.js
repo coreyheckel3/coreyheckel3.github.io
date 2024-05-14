@@ -10,9 +10,11 @@ function MyApp({ Component, pageProps }) {
       if (!validRoutes.some(route => url.startsWith(route))) {
         router.push('/404');
       }
+
     };
 
     router.events.on('routeChangeStart', handleRouteChange);
+
 
     return () => {
       router.events.off('routeChangeStart', handleRouteChange);
