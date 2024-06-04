@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Head from 'next/head';
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
+import Footer2 from '/components/Footer2';
+
 export default function Data() {
   return (
     <>
@@ -23,6 +25,8 @@ export default function Data() {
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/d3js/d3js-original.svg" title="D3"/>
       <img src="/MokkaImage.png" title="Mokka"/>'
       </div>
+      <Footer2 />
+
 
     </>
   );

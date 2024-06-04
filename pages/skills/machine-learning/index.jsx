@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
+import Footer2 from '/components/Footer2';
 
 export default function MachineLearning() {
   return (
@@ -12,8 +13,9 @@ export default function MachineLearning() {
         <title>Machine Learning & Computer Vision</title>
       </Head>
       <h1 className='header'>Machine Learning & Computer Vision</h1>
-      <h2 className='algorithms'>Algorithms and Skills</h2>
-      <ul>
+      <h2 className='algorithmsTitle'>Algorithms and Skills</h2>
+      <ul className='algorithms'>
+        <div id='algorithmsListItem'>
           <li>Linear Regression</li>
           <li>Logistic Regression</li>
           <li>Decision Trees</li>
@@ -29,6 +31,7 @@ export default function MachineLearning() {
           <li>K-Means Clustering</li>
           <li>Neural Networks</li>
           <li>Convolutional Neural Networks</li>
+          </div>
       </ul>
       <div className='skillList'>
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" title="PyTorch"/>
@@ -50,6 +53,8 @@ export default function MachineLearning() {
                     
           
         </div>
+        <Footer2 />
+
     </>
   );
 }

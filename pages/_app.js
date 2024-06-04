@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }) {
     const handleRouteChange = (url) => {
       const validRoutes = ['/skills', '/projects', '/experience', '/education', '/about', '/'];
       if (!validRoutes.some(route => url.startsWith(route))) {
+        console.log("hi")
         router.push('/404');
       }
 

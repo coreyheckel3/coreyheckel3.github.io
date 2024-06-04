@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
 import '/components/styles.css'
 import CardMedia from '@mui/material/CardMedia';
+import Footer2 from '/components/Footer2';
 
 
 import Navigation from '/components/Navigation';
@@ -46,6 +47,7 @@ export default function Experience() {
           </Card>
         ))}
       </div>
+      <Footer2 />
 
     </>
   );

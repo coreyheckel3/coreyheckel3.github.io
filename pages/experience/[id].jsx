@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { Card, CardContent, Typography, CardHeader } from '@mui/material';
+import { Card, CardMedia, CardContent, Typography, CardHeader } from '@mui/material';
 import Link from 'next/link';
 import Navigation from '/components/Navigation';
+import '/components/styles.css'
+import Footer2 from '/components/Footer2';
 
 // Example of importing JSON directly
 // Import your JSON file if it's not being served as static content
@@ -39,7 +41,7 @@ const Experience = () => {
       <Card
         variant='outlined'
         sx={{
-          maxWidth: 550,
+          maxWidth: 750,
           height: 'auto',
           marginLeft: 'auto',
           marginRight: 'auto',
@@ -56,9 +58,16 @@ const Experience = () => {
             fontWeight: 'bold'
           }}
         />
+        <CardMedia
+          component='img'
+          image={
+            experience.image
+          }
+        />
 
-        <CardContent>
+        <CardContent className='cardThing'>
           <Typography
+            className='cardText'
             variant='body2'
             color='textSecondary'
             component='span'
@@ -67,20 +76,27 @@ const Experience = () => {
               fontWeight: 'bold'
             }}
           >
+            <div className='cardTextPage'>
             <dl>
               <p>
-                <dt className='title'>Position:</dt>
+                <dt>Position:</dt>
                 <dd>{experience.position}</dd>
+              </p>
+              <p>
+                <dt className='title'>Technologies:</dt>
+                <dd>{experience.technologies}</dd>
               </p>
               <p>
                 <dt className='title'>Description:</dt>
                 <dd>{experience.description}</dd>
               </p>
             </dl>
-            <Link href='/experience'>Back to all Experience...</Link>
+            </div>
           </Typography>
         </CardContent>
       </Card>
+      <Footer2 />
+
       </>
     );
   }

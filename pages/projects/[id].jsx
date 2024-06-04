@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { Card, CardContent, Typography, CardHeader } from '@mui/material';
+import { Card, CardMedia, CardContent, Typography, CardHeader } from '@mui/material';
 import Link from 'next/link';
 import Navigation from '/components/Navigation';
+import '/components/styles.css'
+import Footer2 from '/components/Footer2';
 
 // Example of importing JSON directly
 // Import your JSON file if it's not being served as static content
@@ -56,8 +58,15 @@ const Project = () => {
             fontWeight: 'bold'
           }}
         />
+        <CardMedia
+        className='cardThing'
+          component='img'
+          image={
+            projects.image
+          }
+        />
 
-        <CardContent>
+        <CardContent className='cardThing'>
           <Typography
             variant='body2'
             color='textSecondary'
@@ -67,20 +76,27 @@ const Project = () => {
               fontWeight: 'bold'
             }}
           >
+            <div className='cardTextPage'>
             <dl>
               <p>
                 <dt className='title'>Position:</dt>
                 <dd>{projects.position}</dd>
               </p>
               <p>
+                <dt className='title'>Technologies:</dt>
+                <dd>{projects.technologies}</dd>
+              </p>
+              <p>
                 <dt className='title'>Description:</dt>
                 <dd>{projects.description}</dd>
               </p>
             </dl>
-            <Link href='/projects'>Back to all Projects...</Link>
+            </div>
           </Typography>
         </CardContent>
       </Card>
+      <Footer2 />
+
       </>
     );
   }

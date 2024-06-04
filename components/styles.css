@@ -6,11 +6,19 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
     }
 .myName{
     text-align: center;
     font-size: 80px;
     color:aliceblue;
+    margin-top: -10px;
+}
+.myRole{
+    text-align: center;
+    font-size: 30px;
+    color:aliceblue;
+    margin-top: -10px;
 }
 .header{
     margin-top: -20px;
@@ -23,11 +31,12 @@ body{
     z-index:2;
 }
 .imageContainer {
-    margin-left: 150px;
-    margin-right: 150px;
-    width: calc(100% - 300px); /* Subtract the margins from the total width */
+    margin-left: 300px;
+    margin-right: 250px;
+    width: calc(100% - 500px); /* Subtract the margins from the total width */
     display: flex;
     justify-content: space-between; /* Distribute items evenly along the main axis */
+    margin-top: -177px;
   }
   
   .imageContainer img {
@@ -36,6 +45,10 @@ body{
   }
  .cardText{
     color:white
+ }
+ .cardTextPage{
+    color:white;
+    font-size:20px;
  }
 
 .cardThing{
@@ -145,4 +158,28 @@ color: white;
 
 .degree, .gpa {
     margin: 0; /* Removes margin from h2 and h3 for tighter spacing */
+}
+
+.algorithmsTitle{
+    text-align: center;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.algorithms{
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
+#algorithmsListItem li{
+    color:white;
+    display: inline-block;
+    padding: 20px;
+}
+.me{
+    margin-left: 10px;
+    margin-top: -190px;
+    height: 358px;
+    width: 300px;
 }

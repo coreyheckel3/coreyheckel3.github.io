@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
+import Footer2 from '/components/Footer2';
+
 export default function ProgrammingLanguages() {
   return (
     <>
@@ -28,6 +30,8 @@ export default function ProgrammingLanguages() {
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg" title="MATLAB" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original-wordmark.svg" title="Arduino" />
 </div>
+<Footer2 />
+
     </>
   );
 }

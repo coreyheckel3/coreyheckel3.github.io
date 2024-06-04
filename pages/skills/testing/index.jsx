@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Head from 'next/head';
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
+import Footer2 from '/components/Footer2';
+
 export default function Testing() {
   return (
     <>
@@ -25,6 +27,8 @@ export default function Testing() {
           
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/travis/travis-original.svg" title="Travis"/>
          </div>
+         <Footer2 />
+
     </>
   );
 }

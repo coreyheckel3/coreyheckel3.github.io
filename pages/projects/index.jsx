@@ -7,6 +7,7 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
 import CardMedia from '@mui/material/CardMedia';
+import Footer2 from '/components/Footer2';
 
 import '/components/styles.css'
 import Navigation from '/components/Navigation';
@@ -45,6 +46,7 @@ export default function Projects() {
           </Card>
         ))}
       </div>
+      <Footer2 />
 
     </>
   );

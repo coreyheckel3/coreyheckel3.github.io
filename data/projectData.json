@@ -17,8 +17,8 @@
         "title": "Student Course Review Website",
         "startDate": "October 2023",
         "endDate": "December 2023",
-        "technologies": "Javascript, React, Node, Bootstrap, Express, jQuery, MongoDB, Handlebars, HTML, CSS",
-        "description": "Description of Project One.",
+        "technologies": "Javascript, Node, Bootstrap, Express, jQuery, MongoDB, Handlebars, HTML, CSS",
+        "description": "The Student Course Review Website enables user to search courses offered at their univeristy and leave reviews and comments on their experiences. All user, university, and course data is stored within mongodb. This application is developed using node and express handlebars and utilizes jQuery to query data. As part of this experience the team utilized agile methodologies and had weekly sprints to ensure all features were implemented by the strict deadline.",
         "image": "/CourseImage.png"
       },
       {
@@ -28,7 +28,7 @@
         "startDate": "September 2023",
         "endDate": "November 2023",
         "technologies": "Python, Excel, Unit Test",
-        "description": "Description of Project One.",
+        "description": "This project was developed in Python to analyze and extract data from a dataset including GEDCOM information. The team had weekly sprint meetings and kept track of their backlog, burndown charts, and velocity within an excel file. To esnure all implementations and user stories were integrated to standard, unit tests were developed to test extracted data.",
         "image": "/GedcomImage.png"
       },
       {
@@ -38,7 +38,7 @@
         "startDate": "January 2023",
         "endDate": "May 2023",
         "technologies": "Javascript, React, Node, Express, MongoDB, Mongoose, Bootstrap, CSS",
-        "description": "Description of Project One.",
+        "description": "Irwin is a comprehensive web survey system that enables users to create, edit, take, and analyze surveys. This application was developed with a MERN Stack (Mongo,Express,React,Node) and stored all of the survey data within mongoDB and user authentication was handled through Auth0. Owners of surveys were allowed to export responses cleanly in excel files to facilitate future analysis. ",
         "image": "/Irwin-logo.png"
       },
       {
@@ -48,7 +48,7 @@
         "startDate": "March 2023",
         "endDate": "May 2023",
         "technologies": "Javascript, HTML, CSS",
-        "description": "Description of Project One.",
+        "description": "The electoral college map was developed independently to analyze potential changes to the electoral voting system. This interactive map allows users to allocate votes from each district towards their preferred presidential canidate instead of having the entire state's votes going to only one candidate. This visualization allows the user to understand how the electoral college system could be changed to closer resemble a popular vote while still maintaining the value of the elecotral vote. For reference, users are able to import the results of the 2020 and 2016 presidential elections to visualize how they may have been impacted by this change in the electoral college system.",
         "image": "/USAImage.png"
       },
       {
@@ -58,7 +58,7 @@
         "startDate": "February 2023",
         "endDate": "March 2023",
         "technologies": "Javascript, Node, Phaser, Express",
-        "description": "Description of Project One.",
+        "description": "Ducks In The Stress Lane was reverse Engineered from the game Jones In The Fast Lane to simulate the day in the life of a Stevens student. This game was independently developed useing Phaser, Node, and Express. The premise of the game was to eventually graduate while making decicions to keep your health, hunger, sanity, and grades up throughout your time in shcool. Decisions included studying, napping, going to the dining hall, going to the gym, among many others. Your decisions impacted the amount of time the user had in the day to complete different tasks. If successful, the user may graduate after completing their degree and passing their classes.",
         "image": "/DSLImage.png"
       },
       {
@@ -68,7 +68,7 @@
         "startDate": "February 2022",
         "endDate": "April 2022",
         "technologies": "Javascript, React, Polygon, CSS, Figma",
-        "description": "Description of Project One.",
+        "description": "Theres Options is a React application aimed towards assisting beginner stock traders make impactful and smart decisions when investing their money. This application allows users to view the top performing stocks, access trending news atricles relating to the stock market and view what stocks wealthy individuals are purchasing. There is also an option that allows users to toggle between stocks in different domaains. The UI was developed using Figma and the team worked in agile having weekly sprint meetings.",
         "image": "/TheresOptionsImage.png"
       }, 
       {
@@ -78,7 +78,7 @@
         "startDate": "February 2021",
         "endDate": "May 2021",
         "technologies": "Arduino, Solidworks, UltraSonic Sensors, WeMos Board",
-        "description": "Description of Project One.",
+        "description": "The Arduino Robot was developed using Arduino, a WeMos Board, along with various other hardware components such as ultrasonic sensors and wheels. I was tasked with assembling a robot and programming it to avoid obstacles in its path while reaching a series of locations in an arena. I also used Solidworks to design the chasis of the robot to keep all of the hardware components in place.",
         "image": "/RobotImage.jpg"
       },
       {
@@ -87,8 +87,8 @@
         "title": "IoT Weather Sensor",
         "startDate": "September 2020",
         "endDate": "December 2020",
-        "technologies": "IoT, Arduino, WeMos Board, Weather Sensor, Solidworks",
-        "description": "Description of Project One.",
+        "technologies": "IoT, Arduino, WeMos Board, Weather Sensor, Solidworks, Labview",
+        "description": "The Internet of Things weather sensor was developed to gather weather data such as humidity, light intensity, and temperature over a period of time. Data was collected using the WeMos Board and weather kit, sent to the IoT server, and displayed using Labview. ",
         "image": "WeatherImage.png"
       }
 ]

@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Head from 'next/head';
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
+import Footer2 from '/components/Footer2';
+
 export default function Documentation() {
   return (
     <>
@@ -18,6 +20,8 @@ export default function Documentation() {
       <img src="/OverleafImage.png" title="Overleaf"/>
       <img src="/LucidChartImage.png" title="LucidChart"/>
       </div>
+      <Footer2 />
+
     </>
   );
 }

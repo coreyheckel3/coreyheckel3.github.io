@@ -2,6 +2,8 @@ import axios from 'axios';
 import Link from 'next/link';
 import Head from 'next/head';
 import '/components/styles.css'
+import Footer2 from '/components/Footer2';
+
 import Navigation from '@/components/Navigation';
 export default function DatabaseLanguages() {
   return (
@@ -23,7 +25,9 @@ export default function DatabaseLanguages() {
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original-wordmark.svg" title="Firebase"/>
           
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain-wordmark.svg" title="GraphQL"/>
-      </div>    
+      </div>   
+      <Footer2 />
+ 
     </>
   );
 }

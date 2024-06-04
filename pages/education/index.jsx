@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Navigation from '/components/Navigation';
 import '/components/styles.css'
+import Footer2 from '/components/Footer2';
 export default function Education() {
   return (
     <>
@@ -14,7 +15,7 @@ export default function Education() {
       <h1 className='header'>Stevens Institute of Technology</h1>
       <div className="degree-gpa-container">
       <h2 className='degree'>B.E - Software Engineering 2024</h2>
-      <h3 className='gpa'>GPA: 3.7</h3>
+      <h3 className='gpa'>GPA: 3.723</h3>
       </div>
       <div className="degree-gpa-container">
       <h2 className='degree'>M.S - Machine Learning 2024</h2>
@@ -94,7 +95,9 @@ export default function Education() {
           <li>Probability & Statistics</li>
       </ul>
       </div>
+      
         </div>
+        <Footer2 />
 
     </>
   );

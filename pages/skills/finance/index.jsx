@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Head from 'next/head';
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
+import Footer2 from '/components/Footer2';
+
 export default function Finance() {
   return (
     <>
@@ -10,8 +12,9 @@ export default function Finance() {
       <Head>
         <title>Finance & Economics</title>
       </Head>
-      <h1>Finance & Economics</h1>
-      <ul>
+      <h1 className='algorithmsTitle'>Finance & Economics</h1>
+      <ul className='algorithms'>
+      <div id='algorithmsListItem'>
           <li>Stock Simulations</li>
           <li>Monte Carlo Simulation</li>
           <li>Brownian Motion</li>
@@ -32,7 +35,10 @@ export default function Finance() {
           <li>Inflation</li>
           <li>Uncertainty</li>
           <li>Excel</li>
+          </div>
       </ul>
+      <Footer2 />
+
     </>
   );
 }

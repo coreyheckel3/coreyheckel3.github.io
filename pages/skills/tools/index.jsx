@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Head from 'next/head';
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
+import Footer2 from '/components/Footer2';
+
 export default function Tools() {
   return (
     <>
@@ -33,6 +35,8 @@ export default function Tools() {
       <img src="/ExcelImage.png" title="Excel"/>
       <img src="/SolidworksImage.png" title="Solidworks"/>
     </div>
+    <Footer2 />
+
     </>
   );
 }

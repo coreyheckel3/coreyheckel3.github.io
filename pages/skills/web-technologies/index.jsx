@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Head from 'next/head';
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
+import Footer2 from '/components/Footer2';
+
 export default function WebTechnologies() {
   return (
     <>
@@ -55,7 +57,9 @@ export default function WebTechnologies() {
 
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vite/vite-original-wordmark.svg" title="Vite"/>
       <img src="/PhaserImage.png" title="Phaser"/> 
-      </div>           
+      </div>     
+      <Footer2 />
+      
     </>
   );
 }
