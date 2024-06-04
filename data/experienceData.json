@@ -5,7 +5,8 @@
       "title": "SonicScript - Stevens Research",
       "startDate": "May 2023",
       "endDate": "May 2024",
-      "description": "Description of Project One.",
+      "technologies": "Unity, C#, Vuforia, OpenCV, ML models (CNN), Vuzix M4000 Smart Glasses",
+      "description": "SonicScript is an augmented reality application enabling blind and visually impaired individuals to learn how to write using their heightened auditory senses. I developed this application individually through a paid research opportunity within the Stevens Institute of Technology computer science department. As part of this experience I took part in weekly sprints and testing where a blind participant had incremently improved his handwriting. The application used pitch and volume variations to guide the user along a series of vector traces representing the different strokes to each letter. Upon completion, the user will be provided with correctional feedback based on the quality of their written letter.",
       "image": "/SonicScriptImage.png"
     },
     {
@@ -14,7 +15,8 @@
       "title": "ART-022 - Stevens Research",
       "startDate": "May 2022",
       "endDate": "August 2022",
-      "description": "Description of Project One.",
+      "technologies": "Python, pandas, numpy, dash, plotly",
+      "description": "ART-022 was a case study conducted to determine the affects of different data visualizations on strategic decision making. I developed eight dashboard varients that included a variety of data visuals such as sliders, bar graphs, line graphs, data tables, and color representations. This was part of a paid research opportunity within the Stevens Institute of Technology computer science department. The user was tasked with designing a catapault with different design decisions to allow the projectice to reach a pre-determined height and distance. The dashboard that I had developed were utilized to determine if different sets of visuals allowed users to make quicker or more strategic descisions to complete the task. As part of this experience I had also assisted in the design and debugging of an artilery dashboard funded by the United States Department of Defense. ",
       "image": "/DashboardImage.png"
     },
     {
@@ -23,7 +25,8 @@
       "title": "MLB Pitching Analysis - Stevens Research",
       "startDate": "May 2021",
       "endDate": "August 2021",
-      "description": "Description of Project One.",
+      "technologies": "MATLAB, Mokka",
+      "description": "The MLB pitching analysis was a paid research opportunity at Stevens Institute of Technology funded through the MLB. As part of this experience, I was tasked with analyzing the deceleration phases of four professional pitchers to determine the relation of their linear and rotational deceleration to optimize mechanics and prevent future injuries.  ",
       "image": "/MLBImage.png"
     },
     {
@@ -32,7 +35,8 @@
       "title": "Island Escape - Personal",
       "startDate": "May 2023",
       "endDate": "Present",
-      "description": "Description of Project One.",
+      "technologies": "Unity, C#, Shaders",
+      "description": "This is a side project I have been working on to develop an open world, survival, story mode game. The premise of the game is that the user crash lands on an island and must interact with the natives, explore, survive, and complete quests to gather the resourses required to build a ship to leave the island. As part of this project I had designed the terrain and developed shaders to simulate the ocean tide and waves. I have also developed an inventory and storage system along with user interactions with wildlife. ",
       "image": "/IslandImage.png"
     },
     {
@@ -41,7 +45,8 @@
       "title": "This Portfolio Website - Personal",
       "startDate": "May 2024",
       "endDate": "Present",
-      "description": "Description of Project One.",
+      "technologies": "Javascript, React, Next, CSS",
+      "description": "This portfolio website was developed independently to showcase my skills as a web developer and my past and current projects.",
       "image": "hereImage.png"
     }
 

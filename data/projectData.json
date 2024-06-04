@@ -6,7 +6,8 @@
       "title": "EchoLab",
       "startDate": "February 2024",
       "endDate": "May 2024",
-      "description": "Description of Project One.",
+      "technologies": "Javascript, React, Agora, Socket.io, TailwindCSS, Express, MongoDB, Redis, Docker, AWS",
+      "description": "EchoLab is a website that enables users to collaborately code together in different rooms that include a voice chat feature. All user, and room data is saved within mongodb and code outputs are saved within redis. When users update the code in the canvas or change the programming language of choice, the updates are showsn for everyone in the room using socket.io. EchoLab utilizes docker images to run submitted code. This website was also deployed using AWS Lambdas.",
       "image": "/EchoLabImage.png"
 
     },
