@@ -43,12 +43,106 @@ background-color: #1f2b37;
 color: white;
 }
 .skillList img{
-    height:200px;
-    padding: 20px;
+    height:150px;
+    padding: 25px;
 }
 .skillList{
     margin-left: 100px;
     margin-right: 100px;
     width: calc(100% - 200px); /* Subtract the margins from the total width */
     justify-content: space-between; /* Distribute items evenly along the main axis */
+}
+.degree{
+    text-align: left;
+    margin-left: 100px;
+
+    color:aliceblue;
+    font-size: 30px;
+}
+.gpa{
+    text-align: right;
+    margin-right: 100px;
+    color:aliceblue;
+    font-size: 20px;
+}
+.education-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .degree-gpa-container, .course-container {
+    margin-bottom: 20px;
+}
+
+.degree-gpa-container {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.course-container1 {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 100px;
+    margin-right: 75px;
+    color: white;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.course-container2 {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 100px;
+    margin-right: 90px;
+    color: white;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.course-container3 {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 100px;
+    margin-right: 160px;
+    color: white;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.course-type1 {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 120px;
+    margin-right: 200px;
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.course-type2 {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 120px;
+    margin-right: 290px;
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.course-type3 {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 120px;
+    margin-right: 440px;
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.degree, .gpa {
+    margin: 0; /* Removes margin from h2 and h3 for tighter spacing */
 }

@@ -22,12 +22,16 @@ export default function Tools() {
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
           
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" />
+      <img src="/PerforceIcon.png"/>
           
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" />
           
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gimp/gimp-original.svg" />
           
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/labview/labview-original.svg" />
+      <img src="/AgileImage.png"/>
+      <img src="/ExcelImage.png"/>
+      <img src="/SolidworksImage.png"/>
     </div>
     </>
   );
