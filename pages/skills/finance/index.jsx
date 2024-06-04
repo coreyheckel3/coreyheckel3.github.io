@@ -33,15 +33,6 @@ export default function Finance() {
           <li>Uncertainty</li>
           <li>Excel</li>
       </ul>
-        <p>
-        <Link href={'/skills'}>
-          Back   
-        </Link>
-        {' | '}
-        <Link href={'/'}>
-          Home
-        </Link>
-      </p>
     </>
   );
 }
