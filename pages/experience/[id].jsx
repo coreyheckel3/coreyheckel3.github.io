@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { Card, CardContent, Typography, CardHeader } from '@mui/material';
 import Link from 'next/link';
+import Navigation from '/components/Navigation';
 
 // Example of importing JSON directly
 // Import your JSON file if it's not being served as static content
@@ -32,6 +33,9 @@ const Experience = () => {
     return <div><h2>Experience not found.</h2></div>;
   } else {
     return (
+      <>
+      <Navigation />
+      
       <Card
         variant='outlined'
         sx={{
@@ -77,6 +81,7 @@ const Experience = () => {
           </Typography>
         </CardContent>
       </Card>
+      </>
     );
   }
 };
