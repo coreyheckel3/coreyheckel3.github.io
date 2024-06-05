@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
+
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
 import Footer2 from '/components/Footer2';
