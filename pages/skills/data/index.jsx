@@ -25,7 +25,7 @@ export default function Data() {
       <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg" title="Three"alt='image'/>
           
       <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/d3js/d3js-original.svg" title="D3"alt='image'/>
-      <Image src="/MokkaImage.png" title="Mokka" alt='image'/>'
+      <Image src="/MokkaImage.png" title="Mokka" alt='image'/>
       </div>
       <Footer2 />
 
