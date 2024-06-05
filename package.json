@@ -1,7 +1,7 @@
 {
   "name": "heckel_corey_lab7",
   "version": "0.1.0",
-  "homepage": "https://coreyheckel3@githut.io",
+  "homepage": "https://coreyheckel3@github.io",
   "private": true,
   "scripts": {
     "dev": "next dev",
