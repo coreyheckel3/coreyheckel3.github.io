@@ -14,16 +14,16 @@ export default function Data() {
       </Head>
       <h1 className='header'>Data Visualization & Analysis</h1>
       <div className='skillList'>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg" title="Plotly"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg" title="Plotly"alt='image'/>
           
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" title="Pandas"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" title="Pandas"alt='image'/>
           
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" title="Numpy"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" title="Numpy"alt='image'/>
           
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg" title="Three"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg" title="Three"alt='image'/>
           
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/d3js/d3js-original.svg" title="D3"/>
-      <img src="/MokkaImage.png" title="Mokka"/>'
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/d3js/d3js-original.svg" title="D3"alt='image'/>
+      <img src="/MokkaImage.png" title="Mokka" alt='image'/>'
       </div>
       <Footer2 />
 

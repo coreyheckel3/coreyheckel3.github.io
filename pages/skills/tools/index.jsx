@@ -15,25 +15,25 @@ export default function Tools() {
       <h1 className='header'>Software & Tools</h1>
 
       <div className='skillList'>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" title="AWS"/>
-      <img src="/IoTImage.png"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" title="IoT"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" title="AWS"alt='image'/>
+      <img src="/IoTImage.png" title="IoT"alt='image'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" title="Docker"alt='image'/>
           
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" title="Git"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" title="Git"alt='image'/>
           
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" title="GitHub"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" title="GitHub"alt='image'/>
           
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" title="GitLab"/>
-      <img src="/PerforceIcon.png" title="Perforce"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" title="GitLab"alt='image'/>
+      <img src="/PerforceIcon.png" title="Perforce"alt='image'/>
           
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" title="Unity"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" title="Unity"alt='image'/>
           
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gimp/gimp-original.svg" title="Gimp"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gimp/gimp-original.svg" title="Gimp"alt='image'/>
           
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/labview/labview-original.svg" title="Labview"/>
-      <img src="/AgileImage.png" title="Agile"/>
-      <img src="/ExcelImage.png" title="Excel"/>
-      <img src="/SolidworksImage.png" title="Solidworks"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/labview/labview-original.svg" title="Labview"alt='image'/>
+      <img src="/AgileImage.png" title="Agile"alt='image'/>
+      <img src="/ExcelImage.png" title="Excel"alt='image'/>
+      <img src="/SolidworksImage.png" title="Solidworks"alt='image'/>
     </div>
     <Footer2 />
 
