@@ -4,7 +4,7 @@ import resume from '../public/resumelogo.png';
 import github from '../public/github.png'
 import linkedin from '../public/linkedin.png'
 import Image from 'next/image'
-import me from '../public/me.png'
+import me from '../public/Me.png'
 import Footer from '../components/Footer';
 
 export default function Index(pageProps) {
