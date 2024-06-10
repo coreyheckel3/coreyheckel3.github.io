@@ -1,5 +1,27 @@
 
 [
+  {
+    "id": "Fraud",
+    "position": "Machine Learning Engineer",
+    "title": "Fraudulent Transaction Detection",
+    "startDate": "May 2024",
+    "endDate": "Present",
+    "technologies": "Python, Jupyter, Numpy, Pandas, Logistic Regression",
+    "description": "In Progress...",
+    "image": "/fraud.jpg"
+
+  },
+  {
+    "id": "ARPU",
+    "position": "Machine Learning Engineer",
+    "title": "ARPU Forecast",
+    "startDate": "May 2024",
+    "endDate": "Present",
+    "technologies": "Python, Jupyter, Pandas, GeoPandas, Numpy, Matplotlib, Linear Regression, Polynomial Regression, Gradient Boosting",
+    "description": "In Progress...",
+    "image": "/arpu.webp"
+
+  },
     {
       "id": "EchoLab",
       "position": "Full Stack Engineer",

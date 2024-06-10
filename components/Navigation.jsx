@@ -47,7 +47,7 @@ export default function Navigation() {
         <Link href='/education'>Education</Link>
       </li>
       <li className='nav'>
-        <Link href='/projects'>Academic Projects</Link>
+        <Link href='/projects'>Projects</Link>
       </li>
     </ul>
   );

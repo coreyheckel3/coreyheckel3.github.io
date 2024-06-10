@@ -20,7 +20,7 @@ export default function Projects() {
         <title>Projects</title>
       </Head>
       <Navigation />
-      <h1 className='header'>Academic Projects</h1>
+      <h1 className='header'>Projects</h1>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'left',marginLeft: '75px' }}>
         {projectData.map((project) => (
           <Card className='cardThing' key={project.id} sx={{ width: 345 }}>
