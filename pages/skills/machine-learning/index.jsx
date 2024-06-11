@@ -34,6 +34,7 @@ export default function MachineLearning() {
           <li>K-Means Clustering</li>
           <li>Neural Networks</li>
           <li>Convolutional Neural Networks</li>
+          <li>Naive Bayes</li>
           </div>
       </ul>
       <div className='skillList'>
