@@ -18,7 +18,7 @@ export default function Index(pageProps) {
       <a href="https://github.com/coreyheckel3" target="_blank">
           <Image src={github} alt="Github Logo" />
         </a>
-      <a href="/Corey Heckel Resume 2024.docx" download>
+      <a href="/Corey Heckel Resume 2024.pdf" download>
         <Image src={resume} alt="Resume Logo" />
       </a>
       <a href="https://www.linkedin.com/in/corey-heckel-991218271" target="_blank">
