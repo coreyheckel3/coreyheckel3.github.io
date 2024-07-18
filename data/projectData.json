@@ -6,7 +6,7 @@
     "title": "Fraudulent Transaction Detection",
     "startDate": "May 2024",
     "endDate": "Present",
-    "technologies": "Python, Jupyter, Numpy, Pandas, Logistic Regression",
+    "technologies": "Python, Jupyter, Numpy, Pandas, Logistic Regression, Decision Trees, Random Forest",
     "description": "I trained and tested a logistic regression model to detect fradulent credit card transactions with 96% accuracy using scikit-learn. I acknowledge that mtore accurate algorithms could be used for this application such as decision trees and random forests however I was limited to statistical methods learned in my Statistics With Applications in Finance Course.",
     "image": "/fraud.jpg"
 
@@ -17,8 +17,8 @@
     "title": "ARPU Forecast",
     "startDate": "May 2024",
     "endDate": "Present",
-    "technologies": "Python, Jupyter, Pandas, GeoPandas, Numpy, Matplotlib, Linear Regression, Polynomial Regression, Gradient Boosting",
-    "description": "This project analyzes the economic status of African countries in relation to their lack of connectivity and internet access. The average revenue per user is forecaseted and projected through 2035 to gain a better understanding on how the economy effects the digital divide in Africa and how it may improve or worsen over the next 10 years. Linear regression, polynomial regression, and gradient boosting algorithms will be trained, tested, and compared to generate a high accuracy and generalized model.",
+    "technologies": "Python, Jupyter, Pandas, GeoPandas, Numpy, Matplotlib, Linear Regression, Polynomial Regression, ARIMA Time Series",
+    "description": "This project analyzes the economic status of African countries in relation to their lack of connectivity and internet access. The average revenue per user is forecaseted and projected through 2035 to gain a better understanding on how the economy effects the digital divide in Africa and how it may improve or worsen over the next 10 years. Linear regression, polynomial regression, and ARIMA Time Series algorithms will be trained, tested, and compared to generate a high accuracy and generalized model.",
     "image": "/arpu.webp"
 
   },

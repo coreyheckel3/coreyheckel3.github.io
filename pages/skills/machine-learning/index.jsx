@@ -20,8 +20,11 @@ export default function MachineLearning() {
         <div id='algorithmsListItem'>
           <li>Linear Regression</li>
           <li>Logistic Regression</li>
+          <li>Time Series</li>
+          <li>ARIMA</li>
           <li>Linear Discriminant Analysis</li>
           <li>Decision Trees</li>
+          <li>Random Forest</li>
           <li>Bias-Variance Tradeoff</li>
           <li>Ensemble Learning</li>
           <li>Deep Learning</li>
