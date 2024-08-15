@@ -1,12 +1,23 @@
 
 [
   {
+    "id": "Bankrupt",
+    "position": "Machine Learning Engineer",
+    "title": "Bankruptcy Prediction Model",
+    "startDate": "July 2024",
+    "endDate": "August 2024",
+    "technologies": "Python, Jupyter, Numpy, Pandas, Scikit-learn, Logistic Regression, Decision Trees, Random Forest, Gradient Boosting, SVM, KFold, Stacking Classifier, SMOTE, Matplotlib",
+    "description": "I stacked different machine learning algorithms including, Logistic Regression, Decision Trees, Random, Forest, Gradient Boosting, and SVM, to predict companies that are going bankrupt. The model iterates through kFold values of 3-10, along with iterating through combinations of the models previously mentioned to find the best fit for the data. The best model is then determined through the lowest bias^2 and variance with accuracy used as a tie breaker.",
+    "image": "/bank.png"
+
+  },
+  {
     "id": "Fraud",
     "position": "Machine Learning Engineer",
     "title": "Fraudulent Transaction Detection",
     "startDate": "May 2024",
     "endDate": "Present",
-    "technologies": "Python, Jupyter, Numpy, Pandas, Logistic Regression, Decision Trees, Random Forest",
+    "technologies": "Python, Jupyter, Numpy, Pandas, Logistic Regression, Decision Trees, Random Forest, SMOTE",
     "description": "I trained and tested a logistic regression model to detect fradulent credit card transactions with 96% accuracy using scikit-learn. I acknowledge that mtore accurate algorithms could be used for this application such as decision trees and random forests however I was limited to statistical methods learned in my Statistics With Applications in Finance Course.",
     "image": "/fraud.jpg"
 

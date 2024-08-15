@@ -16,11 +16,14 @@ export default function Documentation() {
       </Head>
       <h1 className='header'>Documentation</h1>
       <div className='skillList'>
-      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unifiedmodelinglanguage/unifiedmodelinglanguage-original.svg" title="UML"alt='image'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unifiedmodelinglanguage/unifiedmodelinglanguage-original.svg" title="UML"alt='image'/>
           
-      <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg" title="LaTex"alt='image'/>
-      <Image src="/OverleafImage.png" title="Overleaf"alt='image'/>
-      <Image src="/LucidChartImage.png" title="LucidChart"alt='image'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg" title="LaTex"alt='image'/>
+      <img src="/OverleafImage.png" title="Overleaf"alt='image'/>
+      <img src="/LucidChartImage.png" title="LucidChart"alt='image'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" title="Jupyter"alt='image'/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg" title="Jira"alt='image'/>
+
       </div>
       <Footer2 />
 

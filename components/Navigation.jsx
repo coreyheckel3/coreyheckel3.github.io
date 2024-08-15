@@ -33,7 +33,7 @@ export default function Navigation() {
           <Link href='/skills/documentation'>Documentation</Link>
           </li>
           <li className='nav'>
-          <Link href='/skills/tools'>Software & Tools</Link>
+          <Link href='/skills/tools'>Cloud & DevOps</Link>
           </li>
           <li className='nav'>
           <Link href='/skills/finance'>Finance & Economics</Link>
