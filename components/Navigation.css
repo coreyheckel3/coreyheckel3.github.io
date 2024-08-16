@@ -39,14 +39,14 @@
  transform: skewX(25deg);
 }
 
-.menu a {
- display: block;
- color: white;
- text-transform: uppercase;
- text-decoration: none;
- font-family: Arial, Helvetica;
- font-size: 16px;
-}  
+.menu a, .start{
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+    font-size: 16px;
+   }  
 
 .menu li:hover {
  background: #422609;
