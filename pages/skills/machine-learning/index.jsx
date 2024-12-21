@@ -38,6 +38,8 @@ export default function MachineLearning() {
           <li>Neural Networks</li>
           <li>Convolutional Neural Networks</li>
           <li>Naive Bayes</li>
+          <li>Attention</li>
+          <li>Transformers</li>
           </div>
       </ul>
       <div className='skillList'>
@@ -58,7 +60,8 @@ export default function MachineLearning() {
           
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" title="Scikit-learn"alt='image'/>
                     
-          
+      <img src="/optuna.png" title="Optuna"alt='image'/>
+      <img src="/huggingface.avif" title="Hugging Face"alt='image'/>
         </div>
         <Footer2 />
 

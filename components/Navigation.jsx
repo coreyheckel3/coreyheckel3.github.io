@@ -23,7 +23,10 @@ export default function Navigation() {
             <Link href='/skills/data'>Data Visualization & Analysis</Link>
           </li>
           <li className='nav'>
-            <Link href='/skills/machine-learning'>Machine Learning & Computer Vision</Link>
+            <Link href='/skills/machine-learning'>Machine Learning & Artificial Intelligence</Link>
+          </li>
+          <li className='nav'>
+            <Link href='/skills/nlp'>Natural Language Processing</Link>
           </li>
           <li className='nav'>
             <Link href='/skills/testing'>Testing & Quality Assurance</Link>

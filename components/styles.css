@@ -37,6 +37,15 @@ body{
     display: flex;
     justify-content: space-between; /* Distribute items evenly along the main axis */
     margin-top: -177px;
+    justify-content: space-evenly; /* Evenly spaces the icons */
+    align-items: center; /* Center the items vertically */
+  }
+
+  @media (max-width: 768px) {
+    .imageContainer {
+      flex-direction: column; /* Switch to vertical layout on smaller screens */
+      align-items: center; /* Center items horizontally when stacked */
+    }
   }
   
   .imageContainer img {
@@ -185,3 +194,54 @@ color: #1f2b37;
     height: 358px;
     width: 300px;
 }
+.course-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2.course-list-title {
+    background-color: #1f2b37; /* Grey background for the title */
+    color: white;
+    margin: -16px -16px 16px -16px; /* Align with container and push down */
+    padding: 12px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+  }
+  
+  .course-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1; /* Makes the list fill the available space */
+  }
+  
+  .course-list-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .course-list-item:last-child {
+    border-bottom: none; /* Remove border from the last item */
+  }
+  
+  /* To ensure both columns are the same height */
+  .container {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .container > .course-list-container {
+    flex: 1; /* Ensures equal width and height for all columns */
+  }
+
+  
+
+  

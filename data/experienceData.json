@@ -1,18 +1,28 @@
 [
     {
       "id": "SonicScript",
-      "position": "Lead Full Stack Engineer",
-      "title": "SonicScript - Stevens Research",
+      "position": "Graduate Research Assistant",
+      "title": "SonicScript",
       "startDate": "May 2023",
-      "endDate": "May 2024",
+      "endDate": "Dec 2024",
       "technologies": "Unity, C#, Vuforia, OpenCV, ML models (CNN), Vuzix M4000 Smart Glasses",
       "description": "SonicScript is an augmented reality application enabling blind and visually impaired individuals to learn how to write using their heightened auditory senses. I developed this application individually through a paid research opportunity within the Stevens Institute of Technology computer science department. As part of this experience I took part in weekly sprints and testing where a blind participant had incremently improved his handwriting. The application used pitch and volume variations to guide the user along a series of vector traces representing the different strokes to each letter. Upon completion, the user will be provided with correctional feedback based on the quality of their written letter. As part of this experience I also trained and tested a CNN to perform optical character recognition.",
       "image": "/SonicScriptImage.png"
     },
     {
+      "id": "CourseAssistant",
+      "position": "Graduate Course Assistant",
+      "title": "SSW 625: AI for Software Engineering",
+      "startDate": "Sep 2024",
+      "endDate": "Dec 2024",
+      "technologies": "Java, Maven, Github, Remote Desktop",
+      "description": "Assisted professor in tool installation and setup, assignment grading, and responding to student inquiries.",
+      "image": "/course assistant2.jpg"
+    },
+    {
       "id": "ART-022",
-      "position": "Associate Dashboard Developer",
-      "title": "ART-022 - Stevens Research",
+      "position": "Undergraduate Research Assistant",
+      "title": "ART-022",
       "startDate": "May 2022",
       "endDate": "August 2022",
       "technologies": "Python, pandas, numpy, dash, plotly",
@@ -21,8 +31,8 @@
     },
     {
       "id": "MLB",
-      "position": "Associate Data Analyst",
-      "title": "MLB Pitching Analysis - Stevens Research",
+      "position": "Undergraduate Research Assistant",
+      "title": "MLB Pitching Analysis",
       "startDate": "May 2021",
       "endDate": "August 2021",
       "technologies": "MATLAB, Mokka",
