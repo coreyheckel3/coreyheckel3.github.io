@@ -6,7 +6,7 @@
       "startDate": "May 2023",
       "endDate": "Dec 2024",
       "technologies": "Unity, C#, Vuforia, OpenCV, ML models (CNN), Vuzix M4000 Smart Glasses",
-      "description": "SonicScript is an augmented reality application enabling blind and visually impaired individuals to learn how to write using their heightened auditory senses. I developed this application individually through a paid research opportunity within the Stevens Institute of Technology computer science department. As part of this experience I took part in weekly sprints and testing where a blind participant had incremently improved his handwriting. The application used pitch and volume variations to guide the user along a series of vector traces representing the different strokes to each letter. Upon completion, the user will be provided with correctional feedback based on the quality of their written letter. As part of this experience I also trained and tested a CNN to perform optical character recognition.",
+      "description": "As a lead full stack engineer in human computer interaction, I independently designed and implemented a system for individuals with visual impairments, facilitating their learning of English character structures and writing with up to 90% accuracy. I worked under agile practices having weekly sprints and continuous integration and testing. The application leverages augmented reality and Vuzix M4000 smart glasses to assist users through a sequence of vector traces using sonification and verbal guidance. Utilizing Vuforia, the system tracks the users hand movement, comparing it to predefined points along letter traces. Throughout the tracing process, pitch and volume levels are adjusted to guide the user for enhanced learning and interaction. Upon completion of each stroke, the user will receive correctional feedback, determined by algorithms utilizing machine learning and computer vision, to enhance user accuracy by 30%. The project has already secured $1,000 for further research and development.",
       "image": "/SonicScriptImage.png"
     },
     {
@@ -26,7 +26,7 @@
       "startDate": "May 2022",
       "endDate": "August 2022",
       "technologies": "Python, pandas, numpy, dash, plotly",
-      "description": "ART-022 was a case study conducted to determine the affects of different data visualizations on strategic decision making. I developed eight dashboard varients that included a variety of data visuals such as sliders, bar graphs, line graphs, data tables, and color representations. This was part of a paid research opportunity within the Stevens Institute of Technology computer science department. The user was tasked with designing a catapault with different design decisions to allow the projectice to reach a pre-determined height and distance. The dashboard that I had developed were utilized to determine if different sets of visuals allowed users to make quicker or more strategic descisions to complete the task. As part of this experience I had also assisted in the design and debugging of an artilery dashboard funded by the United States Department of Defense. ",
+      "description": "As a user experience researcher and dashboard developer, I conducted an extensive case study of 800+ participants to assess the influence of visual dashboard features on strategic decision-making and user performance. Using Python, dash, plotly, numpy and pandas, I created eight distinct dashboard variants, each presenting a different set of visual elements. The study involved a task where users were tasked with constructing a catapult, allowing them to modify various metrics while adhering to specific requirements and limitations. Upon completion, participants were asked about their confidence levels in executing the task. Participants were sourced from Amazon Mechanical Turk for this study. In the course of this project, I also contributed by troubleshooting an artillery dashboard funded by the United States Department of Defense optimizing its user interface. ",
       "image": "/DashboardImage.png"
     },
     {
@@ -36,7 +36,7 @@
       "startDate": "May 2021",
       "endDate": "August 2021",
       "technologies": "MATLAB, Mokka",
-      "description": "The MLB pitching analysis was a paid research opportunity at Stevens Institute of Technology funded through the MLB. As part of this experience, I was tasked with analyzing the deceleration phases of four professional pitchers to determine the relation of their linear and rotational deceleration to optimize mechanics and prevent future injuries.  ",
+      "description": "As a data analyst researcher, I conducted an in-depth analysis of professional pitchers' joint movements by utilizing Mokka to plot data obtained from capturing both kinematic and kinetic data via force plates. My analysis involved the examination of angular incremental impulse data across various planes using MATLAB. I worked to mitigated potential deceleration injury risks by 15% through detailed joint movement analysis. Additionally, I employed linear incremental impulse within the sagittal plane and studied angular incremental impulse across the sagittal and transverse planes to determine the deceleration phase of each pitcher's motion which contributed to a 10% improvement in pitchers' overall performance metrics.",
       "image": "/MLBImage.png"
     },
     {

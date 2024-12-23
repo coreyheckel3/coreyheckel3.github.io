@@ -1,6 +1,26 @@
 
 [
   {
+    "id": "Toxic",
+    "position": "NLP Engineer",
+    "title": "Toxic Comment Classifier",
+    "startDate": "November 2024",
+    "endDate": "December 2024",
+    "technologies": "Python, Jupyter, Numpy, Pandas, Scikit-learn, PyTorch, Tensorflow, Keras, BERT, GloVe, GRU, LSTM, RNN, BRNN, Adam, Kaggle",
+    "description": "The project utilized Natural Language Processing (NLP) techniques to accurately classify toxic comments. In particular, the team has worked on engineering and comparing various models including Recurrent Neural Networks (RNN) using Global Vectors for Word Representation (GloVe), Bidirectional Encoder Representations from Transformers (BERT), Gated Recurrent Units (GRU), and Long Short Term Memory Units (LSTM). Each model utilizes different machine learning concepts to predict if a comment includes toxic language, or is acceptable for online presence.",
+    "image": "/toxic.png"
+  },
+  {
+    "id": "House",
+    "position": "Machine Learning Engineer",
+    "title": "House Price Prediction",
+    "startDate": "November 2024",
+    "endDate": "December 2024",
+    "technologies": "Python, Jupyter, Numpy, Pandas, Scikit-learn, PySpark, Kaggle, Colab, LDA, Matplotlib, Seaborn, Linear Regression, SVR, Random Forest, Gradient Boosting, CatBoost",
+    "description": "Collaborated on a team project to estimate house prices using machine learning. The team focused on data cleaning and feature engineering to prepare a Kaggle dataset of 3,000 samples for analysis. We trained and evaluated multiple models, including Linear Regression, Random Forest, and CatBoost, achieving the best results with CatBoost. This project demonstrated the potential of machine learning to deliver accurate, data-driven solutions for real estate pricing.",
+    "image": "/house.jpg"
+  },
+  {
     "id": "Bankrupt",
     "position": "Machine Learning Engineer",
     "title": "Bankruptcy Prediction Model",
