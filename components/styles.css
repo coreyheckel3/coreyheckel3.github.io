@@ -450,7 +450,7 @@ p {
     margin-left: 30px;
 }
 
-.navigation-link:hover, nav.link:hover {
+.navigation-link:hover, .nav-link:hover {
     color: #2e9dff;
 }
 
@@ -504,6 +504,26 @@ p {
     text-align: center;
     margin-top: 50px;
     margin-left: 35px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .white-box.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .white-box.delay-1 {
+    transition-delay: 0.1s;
+  }
+  
+  .white-box.delay-2 {
+    transition-delay: 0.15s;
+  }
+  
+  .white-box.delay-3 {
+    transition-delay: 0.2s;
   }
 
 .white-box.transparent {
@@ -550,7 +570,11 @@ p {
     font-size: 60px;
     font-weight: 300;
     line-height: 60px;
-    overflow: visible;}
+    overflow: visible;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
 
 .hero-subheading {
     color: #d5dade;
@@ -561,6 +585,15 @@ p {
     font-weight: 300;
     line-height: 20px;
     position: relative;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.hero-heading.visible, 
+.hero-subheading.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .hollow-button {
@@ -673,6 +706,15 @@ p {
     padding: 5px;
     display: block;
     box-shadow: 0 0 0 2px #2e9dff;
+}
+
+.grid-image:hover {
+  border: 0px solid #fff;
+}
+
+.white-box:hover {
+  box-shadow: 0px 2px 20px rgba(9, 94, 155, 0.1);
+
 }
 
 .info-icon {
@@ -931,7 +973,9 @@ p {
   @media screen and (max-width: 767px) {
     /* Hamburger button should be visible on small screens */
     .hamburger-button {
-      display: block;
+      display: flex;
+      justify-content: space-between;
+
     }
     .image {
         grid-column-gap: 0px;

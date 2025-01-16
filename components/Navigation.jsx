@@ -46,6 +46,8 @@ export default function Navigation() {
         {/* Hamburger Button */}
         <div className="hamburger-button w-nav-button" onClick={toggleMenu}>
           <div className="hamburger-icon"></div>
+          <div class="hamburger-icon"></div>
+          <div class="hamburger-icon"></div>
         </div>
       </div>
     </div>
