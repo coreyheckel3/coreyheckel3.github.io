@@ -1157,7 +1157,7 @@ p {
       }
     
       .hero-heading {
-        margin-top: -100px;
+        margin-top: -150px;
         margin-bottom: -75px;
         font-size: 20px;
       }
@@ -1166,8 +1166,18 @@ p {
         margin-top: 0px;
         margin-left: 0px;
         font-size: 10px;
-        margin-bottom: -50px;
       }
+
+      .image {
+        vertical-align: baseline;
+        justify-content: flex-start;
+        align-content: flex-end;
+        width: 20%;
+        height: 70%;
+        display: inline-flex;
+        position: absolute;
+      }
+
   }
 
 
