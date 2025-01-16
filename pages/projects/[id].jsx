@@ -4,7 +4,7 @@ import { Card, CardMedia, CardContent, Typography, CardHeader } from '@mui/mater
 import Link from 'next/link';
 import Navigation from '/components/Navigation';
 import '/components/styles.css'
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 
 // Example of importing JSON directly
 // Import your JSON file if it's not being served as static content
@@ -44,6 +44,8 @@ const Project = () => {
           maxWidth: 550,
           height: 'auto',
           marginLeft: 'auto',
+          marginTop:'40px',
+          marginBottom:'40px',
           marginRight: 'auto',
           borderRadius: 5,
           border: '1px solid #1e8678',
@@ -95,7 +97,7 @@ const Project = () => {
           </Typography>
         </CardContent>
       </Card>
-      <Footer2 />
+      <Footer />
 
       </>
     );

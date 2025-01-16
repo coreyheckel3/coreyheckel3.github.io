@@ -4,11 +4,13 @@ import Image from 'next/image';
 import Head from 'next/head';
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 
 export default function WebTechnologies() {
   return (
     <>
+    <div className="layout">
+
     <Navigation />
       <Head>
         <title>Web Technologies</title>
@@ -59,8 +61,8 @@ export default function WebTechnologies() {
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vite/vite-original-wordmark.svg" title="Vite" alt='image'/>
       <img src="/PhaserImage.png" title="Phaser" alt='image'/> 
       </div>     
-      <Footer2 />
-      
+      <Footer />
+      </div>
     </>
   );
 }

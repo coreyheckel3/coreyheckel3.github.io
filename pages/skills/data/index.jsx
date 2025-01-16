@@ -5,11 +5,13 @@ import '/components/styles.css'
 import Image from 'next/image';
 
 import Navigation from '@/components/Navigation';
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 
 export default function Data() {
   return (
     <>
+    <div className="layout">
+
     <Navigation />
       <Head>
         <title>Data Visualization & Analysis</title>
@@ -33,8 +35,8 @@ export default function Data() {
       <img src="/ExcelImage.png" title="Excel"alt='image'/>
 
       </div>
-      <Footer2 />
-
+      <Footer />
+    </div>
 
     </>
   );

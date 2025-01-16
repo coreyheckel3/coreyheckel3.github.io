@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import projectData from '/data/projectData.json';
 import { Box, Card, CardContent, Typography, CardActionArea, CardMedia } from '@mui/material';
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 import Navigation from '/components/Navigation';
 import "/components/styles.css"
 
@@ -46,7 +46,7 @@ export default function Projects() {
           }}
         >
           {projectData.map((project) => (
-            <Card key={project.id} sx={{ width: 345, backgroundColor: '#1f2b37', color: '#fff' }}>
+            <Card key={project.id} sx={{ width: 345, backgroundColor: '#383838', color: '#fff' }}>
               <CardActionArea component={Link} href={`/projects/${project.id}`} sx={{ textDecoration: 'none' }}>
                 <CardMedia
                   component="img"
@@ -72,7 +72,7 @@ export default function Projects() {
       </Box>
 
       <Box sx={{ mt: 'auto', width: '100%' }}>
-        <Footer2 />
+        <Footer />
       </Box>
     </Box>
   );

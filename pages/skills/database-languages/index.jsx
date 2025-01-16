@@ -4,12 +4,14 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 import '/components/styles.css'
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 
 import Navigation from '@/components/Navigation';
 export default function DatabaseLanguages() {
   return (
     <>
+    <div className="layout">
+
     <Navigation />
       <Head>
         <title>Database & Query Languages</title>
@@ -31,8 +33,8 @@ export default function DatabaseLanguages() {
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cassandra/cassandra-original.svg"title="Cassandra"alt='image' />
           
       </div>   
-      <Footer2 />
- 
+      <Footer />
+      </div>
     </>
   );
 }

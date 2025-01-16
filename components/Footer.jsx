@@ -1,24 +1,16 @@
 import React from 'react';
-import styles from './Footer.css';
+import './styles.css';
 
 const Footer = () => {
   return (
-    <footer className='footer'>
-      <div className='container'>
-        <p className='contactInfo'>
-          Contact Me:
-        </p>
-        <p className='contactItem'>
-          Email: <a href="mailto:coreyheckel3@gmail.com">coreyheckel3@gmail.com</a>
-        </p>
-        <p className='contactItem'>
-          Phone: (914) 336-7015
-        </p>
-        <p className='contactItem'>
-          Port Chester, NY
-        </p>
+    <div className="footer-center" style={{ backgroundColor: '#383838'}}>
+      <div className="container w-container">
+        <div className="footer-text">Contact Me:</div>
+        <div className="footer-text">Email: coreyheckel3@gmail.com</div>
+        <div className="footer-text">Phone: (914) 336-7015</div>
+        <div className="footer-text">Port Chester, NY</div>
       </div>
-    </footer>
+    </div>
   );
 }
 

@@ -4,11 +4,13 @@ import Image from 'next/image';
 
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 
 export default function ProgrammingLanguages() {
   return (
     <>
+    <div className="layout">
+
     <Navigation />
       <Head>
         <title>Programming Languages</title>
@@ -32,8 +34,8 @@ export default function ProgrammingLanguages() {
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg" title="MATLAB" alt='image'/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original-wordmark.svg" title="Arduino" alt='image'/>
 </div>
-<Footer2 />
-
+<Footer />
+    </div>
     </>
   );
 }

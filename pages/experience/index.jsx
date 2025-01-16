@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import experienceData from '/data/experienceData.json'; // Path to your local JSON file
 import { Box, Card, CardContent, Typography, CardActionArea, CardMedia } from '@mui/material';
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 import Navigation from '/components/Navigation';
 import "/components/styles.css"
 
@@ -13,7 +13,7 @@ export default function Experience() {
       sx={{
         position: 'relative',
         minHeight: '100vh',
-        paddingBottom: '100px', // Adjust this to the height of your footer
+         // Adjust this to the height of your footer
       }}
     >
       <Head>
@@ -27,7 +27,7 @@ export default function Experience() {
           padding: '20px',
         }}
       >
-        <Typography fontSize='50px' variant="h1" className="header" sx={{ marginBottom: '20px', color: 'aliceblue', textAlign: 'center' }}>
+        <Typography fontSize='50px' variant="h1" className="header" sx={{ marginBottom: '20px', color: 'aliceblue', textAlign: 'center'}}>
           Professional Experience
         </Typography>
         <Box
@@ -40,7 +40,7 @@ export default function Experience() {
           }}
         >
           {experienceData.map((experience) => (
-            <Card key={experience.id} sx={{ width: 345, backgroundColor: '#1f2b37', color: '#fff' }}>
+            <Card key={experience.id} sx={{ width: 345, backgroundColor: '#383838', color: '#fff' }}>
               <CardActionArea component={Link} href={`/experience/${experience.id}`} sx={{ textDecoration: 'none' }}>
                 <CardMedia
                   component="img"
@@ -65,7 +65,7 @@ export default function Experience() {
         </Box>
       </Box>
 
-      <Footer2 />
+      <Footer/>
     </Box>
   );
 }

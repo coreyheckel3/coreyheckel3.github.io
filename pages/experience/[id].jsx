@@ -4,7 +4,7 @@ import { Card, CardMedia, CardContent, Typography, CardHeader } from '@mui/mater
 import Link from 'next/link';
 import Navigation from '/components/Navigation';
 import '/components/styles.css'
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 
 // Example of importing JSON directly
 // Import your JSON file if it's not being served as static content
@@ -42,6 +42,8 @@ const Experience = () => {
         variant='outlined'
         sx={{
           maxWidth: 750,
+          marginTop: '40px',
+          marginBottom: '40px',
           height: 'auto',
           marginLeft: 'auto',
           marginRight: 'auto',
@@ -95,7 +97,7 @@ const Experience = () => {
           </Typography>
         </CardContent>
       </Card>
-      <Footer2 />
+      <Footer />
 
       </>
     );

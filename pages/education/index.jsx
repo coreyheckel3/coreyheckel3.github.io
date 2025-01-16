@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Navigation from '/components/Navigation';
 import '/components/styles.css'
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 import CourseList from "/components/CourseList";
 
 export default function Education() {
@@ -79,7 +79,7 @@ export default function Education() {
       <h2 className='degree'>B.E - Software Engineering 2024</h2>
       <h3 className='gpa'>GPA: 3.72</h3>
       </div>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', color:"#383838" }}>
       <CourseList title="Software Engineering" courses={softwareEngineeringCourses} />
       <CourseList title="Machine Learning" courses={machineLearningCourses}/>
       <CourseList title="Domain Electives" courses={domainElectives}/>
@@ -90,7 +90,7 @@ export default function Education() {
       </div>
       
         </div>
-        <Footer2 />
+        <Footer />
 
     </>
   );

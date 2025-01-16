@@ -3,11 +3,13 @@ import Link from 'next/link';
 import Head from 'next/head';
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 
 export default function NLP() {
   return (
     <>
+    <div className="layout">
+
     <Navigation />
       <Head>
         <title>Natural Language Processing</title>
@@ -33,8 +35,8 @@ export default function NLP() {
           <li>Encoder & Decoder</li>
           </div>
       </ul>
-      <Footer2 />
-
+      <Footer />
+    </div>
     </>
   );
 }

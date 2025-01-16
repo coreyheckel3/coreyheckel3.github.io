@@ -5,11 +5,13 @@ import Image from 'next/image';
 
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 
 export default function Documentation() {
   return (
     <>
+    <div className="layout">
+
     <Navigation />
       <Head>
         <title>Documentation</title>
@@ -25,8 +27,8 @@ export default function Documentation() {
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg" title="Jira"alt='image'/>
 
       </div>
-      <Footer2 />
-
+      <Footer />
+      </div>
     </>
   );
 }

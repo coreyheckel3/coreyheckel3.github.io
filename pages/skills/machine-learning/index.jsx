@@ -5,11 +5,13 @@ import Image from 'next/image';
 
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 
 export default function MachineLearning() {
   return (
     <>
+    <div className="layout">
+
     <Navigation />
       <Head>
         <title>Machine Learning & Computer Vision</title>
@@ -63,8 +65,8 @@ export default function MachineLearning() {
       <img src="/optuna.png" title="Optuna"alt='image'/>
       <img src="/huggingface.avif" title="Hugging Face"alt='image'/>
         </div>
-        <Footer2 />
-
+        <Footer />
+      </div>
     </>
   );
 }

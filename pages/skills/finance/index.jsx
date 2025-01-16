@@ -3,11 +3,13 @@ import Link from 'next/link';
 import Head from 'next/head';
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 
 export default function Finance() {
   return (
     <>
+    <div className="layout">
+
     <Navigation />
       <Head>
         <title>Finance & Economics</title>
@@ -37,8 +39,8 @@ export default function Finance() {
           <li>Excel</li>
           </div>
       </ul>
-      <Footer2 />
-
+      <Footer />
+    </div>
     </>
   );
 }

@@ -4,11 +4,12 @@ import Image from 'next/image';
 import Head from 'next/head';
 import '/components/styles.css'
 import Navigation from '@/components/Navigation';
-import Footer2 from '/components/Footer2';
+import Footer from '/components/Footer';
 
 export default function Tools() {
   return (
     <>
+    <div className="layout">
     <Navigation />
       <Head>
         <title>Cloud & DevOps</title>
@@ -27,8 +28,8 @@ export default function Tools() {
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg"title="Kafka"alt="image" />
           
     </div>
-    <Footer2 />
-
+    <Footer />
+    </div>
     </>
   );
 }
