@@ -1149,7 +1149,7 @@ p {
         width: 330px; /* Fixed height for all boxes */
         text-align: center;
         margin-top: 50px;
-        margin-left: 400px;
+        margin-left: 250px;
       }
   
     .header {
@@ -1174,13 +1174,13 @@ p {
       .hero-heading {
         margin-top: -150px;
         margin-bottom: 15px;
-        font-size: 20px;
+        font-size: 35px;
       }
     
       .hero-subheading {
         margin-top: 0px;
         margin-left: 0px;
-        font-size: 10px;
+        font-size: 20px;
       }
 
       .image {
