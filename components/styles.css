@@ -417,6 +417,13 @@ p {
     position: relative;
   }
 
+  .navigation-link, 
+.w-dropdown {
+  margin: 0 0px; /* Adjust spacing between links */
+  display: inline-block;
+}
+
+
 .button.w-current {
     background-color: #2e80b6;
 }
@@ -787,9 +794,9 @@ p {
 .dropdown-list {
     display: none; /* Hidden by default */
   position: absolute;
-  top: 115%; /* Position directly below the parent dropdown toggle */
-  left: -650px;
-  width: 1000%; /* Make it as wide as the navbar */
+  top: 100%; /* Position directly below the parent dropdown toggle */
+  left: -660px;
+  width: 1162%; /* Make it as wide as the navbar */
   background: #e0dddd; /* Dropdown background color */
   list-style: none;
   padding: 10px 20px;
@@ -799,7 +806,7 @@ p {
   flex-wrap:wrap;
   justify-content:left;
   border-top: 1px solid #242a30;
-  border-bottom: 1px solid #242a30;
+  border-bottom: 2px solid #242a30;
 
   
 }
@@ -832,9 +839,6 @@ p {
     position: absolute;
 }
 
-.text-block {
-    padding-right: 20px;
-}
 
 .hamburger-button {
     display: none;
