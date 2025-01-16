@@ -795,8 +795,8 @@ p {
     display: none; /* Hidden by default */
   position: absolute;
   top: 100%; /* Position directly below the parent dropdown toggle */
-  left: -663px;
-  width: 1164%; /* Make it as wide as the navbar */
+  left: -665px;
+  width: 1166%; /* Make it as wide as the navbar */
   background: #e0dddd; /* Dropdown background color */
   list-style: none;
   padding: 10px 20px;
