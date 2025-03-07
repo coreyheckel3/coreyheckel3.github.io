@@ -1,5 +1,25 @@
 [
-    {
+  {
+    "id": "Nike",
+      "position": "Machine Learning Engineer II",
+      "title": "Nike",
+      "startDate": "Mar 2025",
+      "endDate": "Present",
+      "technologies": "TBD",
+      "description": "TBD",
+      "image": "/Nike.png"
+  },
+  {
+    "id": "Posh",
+      "position": "Freelance Software Engineer",
+      "title": "Posh",
+      "startDate": "Jan 2025",
+      "endDate": "Present",
+      "technologies": "Typescript, React, Node, Express, MongoDB, Google Analytics, Webflow, Airtable, Mailgun",
+      "description": "Revamped pug templates for Mailgun to apply new branding, enhancing email consistency and engagement. Designed and developed custom marketing websites using Webflow to showcase events and drive ticket sales. Collaborated with clients to ensure websites are aligned with their branding, event goals, and ticket sale objectives. Integrated Google Analytics to client websites, collecting insights on unique visitors, traffic, and user patterns",
+      "image": "/Posh.png"
+  },
+  {
       "id": "SonicScript",
       "position": "Graduate Research Assistant",
       "title": "SonicScript",

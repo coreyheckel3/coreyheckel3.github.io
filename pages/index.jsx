@@ -61,8 +61,8 @@ export default function Index(pageProps) {
         <div className="w-container">
           <h1 data-ix="fade-in-bottom-page-loads" className="hero-heading">Corey Heckel</h1>
           <div data-ix="fade-in-bottom-page-loads" className="hero-subheading">
-            Full Stack Software Engineer<br />~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br />
-            Machine Learning<br />~~~~~~~~~~~~~~~~<br />
+            Machine Learning Engineer<br />~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br />
+            Full Stack Software Development<br />~~~~~~~~~~~~~~~~<br />
             Web Development
           </div>
         </div>

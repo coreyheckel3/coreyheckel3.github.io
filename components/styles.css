@@ -86,7 +86,7 @@ footer {
  }
  .cardTextPage{
     color:white;
-    font-size:20px;
+    font-size:20px; 
  }
 
 .cardThing{
@@ -369,7 +369,7 @@ p {
     font-size: 14px;
     font-weight: 300;
     line-height: 25px;
-    color: black;
+    color: white;
 }
 
 .button {
