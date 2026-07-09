@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-DGeXAQPT.js";import{t}from"./link-9NSJM2N1.js";var n=e(),r=()=>(0,n.jsxs)(`div`,{className:`py-10`,children:[(0,n.jsx)(`p`,{className:`text-muted-foreground`,children:`Skill category not found.`}),(0,n.jsx)(t,{to:`/skills`,className:`mt-4 inline-block underline hover:text-ember`,children:`← Back to skills`})]});export{r as notFoundComponent};

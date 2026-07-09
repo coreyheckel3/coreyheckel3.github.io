@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-DGeXAQPT.js";var t=e(),n=({error:e})=>(0,t.jsxs)(`div`,{className:`py-10`,children:[(0,t.jsx)(`p`,{children:`Something went wrong loading this category.`}),(0,t.jsx)(`pre`,{className:`mt-2 text-xs text-muted-foreground`,children:e.message})]});export{n as errorComponent};
