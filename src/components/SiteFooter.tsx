@@ -33,7 +33,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="container-prose pb-8 text-xs text-muted-foreground flex flex-wrap justify-between gap-2">
-        <span>© {new Date().getFullYear()} Corey Heckel. Built with care in TanStack Start.</span>
+        <span>© {new Date().getFullYear()} Corey Heckel</span>
         <span>{CONTACT.location}</span>
       </div>
     </footer>

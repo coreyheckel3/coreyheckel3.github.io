@@ -300,7 +300,7 @@ function SiteFooter() {
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
 				"© ",
 				(/* @__PURE__ */ new Date()).getFullYear(),
-				" Corey Heckel. Built with care in TanStack Start."
+				" Corey Heckel"
 			] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: CONTACT.location })]
 		})]
 	});
