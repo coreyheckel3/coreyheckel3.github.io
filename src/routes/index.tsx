@@ -77,7 +77,7 @@ function Home() {
           <div className="mt-16">
             <p className="eyebrow mb-4">Impact at Nike</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <Stat n="$245M" l="incremental revenue" sub="from 0→1 rec models" />
+              <Stat n="$113M" l="annualized incremental demand" sub="from 0→1 rec models" />
               <Stat n="600K+" l="AE hours saved / yr" sub="AI Draft Order tool" />
               <Stat n="90%" l="infra cost reduction" sub="Databricks → AWS" />
               <Stat n="95%" l="search coverage" sub="dead-end searches → 0" />
