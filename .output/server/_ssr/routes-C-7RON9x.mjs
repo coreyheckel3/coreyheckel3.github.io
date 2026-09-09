@@ -84,8 +84,8 @@ function Home() {
 								className: "grid grid-cols-2 md:grid-cols-4 gap-4",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Stat, {
-										n: "$245M",
-										l: "incremental revenue",
+										n: "$113M",
+										l: "annualized incremental demand",
 										sub: "from 0→1 rec models"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Stat, {
