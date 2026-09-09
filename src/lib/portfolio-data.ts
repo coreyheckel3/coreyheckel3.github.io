@@ -135,7 +135,7 @@ export const EXPERIENCE: Experience[] = [
     company: "Nike",
     period: "Mar 2025 — Present",
     bullets: [
-      "Developed and deployed multiple production recommendation models from 0 to 1, driving a 23.7% increase in Add-to-Cart rate, 13.3% lift in average order value, and $245M in incremental revenue.",
+      "Developed and deployed multiple production recommendation models from 0 to 1, driving a 23.7% increase in Add-to-Cart rate, 13.3% lift in average order value, and $113M in annualized incremental demand.",
       "Designed and deployed an AI-powered Draft Order tool for Account Executives, reducing order drafting time from 2–5 days to under 1 hour and saving 600,000+ hours of AE time annually.",
       "Led a cross-functional effort to eliminate dead-end searches using embedding-based similarity matching across the product catalog, increasing product discovery coverage from 0% to 95% of search traffic.",
       "Migrated recommendation system serving from Databricks to AWS, cutting operating costs by 90%, latency by ~50%, and scaling throughput from 200 RPS to 550+ RPS.",
